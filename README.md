@@ -16,7 +16,7 @@ The plugin runs nothing on your machine. Claude calls Enoki's MCP server, and En
 In Claude Code:
 
 ```
-/plugin install enoki --marketplace ethicgate/enoki-claude-plugin
+/plugin install enoki --marketplace Enoki-Labs-Integrations/enoki-claude-plugin
 ```
 
 ## Before you start
