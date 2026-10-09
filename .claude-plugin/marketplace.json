@@ -1,0 +1,15 @@
+{
+  "name": "enoki",
+  "description": "Enoki's plugin for Claude: test your AI agents for security and safety weaknesses, and re-verify the fixes.",
+  "owner": {
+    "name": "Enoki Labs",
+    "email": "hello@enokilabs.ai"
+  },
+  "plugins": [
+    {
+      "name": "enoki",
+      "source": "./",
+      "description": "Test your AI agent for security and safety weaknesses after each change, and re-verify the fixes."
+    }
+  ]
+}

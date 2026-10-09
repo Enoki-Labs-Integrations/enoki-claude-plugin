@@ -1,0 +1,18 @@
+{
+  "name": "enoki",
+  "displayName": "Enoki",
+  "version": "1.0.0",
+  "description": "Test your AI agent for security and safety weaknesses after each change, and re-verify the fixes.",
+  "author": {
+    "name": "Enoki Labs",
+    "email": "hello@enokilabs.ai",
+    "url": "https://enokilabs.ai"
+  },
+  "homepage": "https://docs.enokilabs.ai/connect-your-agent",
+  "license": "MIT",
+  "keywords": ["ai-agents", "security", "safety", "red-teaming", "testing"],
+  "icon": "./logo.svg",
+  "documentationUrl": "https://docs.enokilabs.ai",
+  "supportUrl": "https://docs.enokilabs.ai/troubleshooting",
+  "privacyPolicyUrl": "https://enokilabs.ai/privacy"
+}
