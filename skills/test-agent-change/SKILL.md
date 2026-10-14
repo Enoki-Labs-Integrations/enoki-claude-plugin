@@ -9,7 +9,7 @@ Enoki attacks an AI agent the way an adversary would and reports what got throug
 
 ## 1. Find the agent
 
-Call `list_targets` and pick the target that matches the agent the user changed, by name and endpoint host. If it is not there, call `get_setup_guide` and follow it to register the agent with `create_target`. Ask the user for the endpoint and its credentials; never guess them. Register a test or staging deployment rather than production, because an assessment sends adversarial messages to the agent.
+Call `list_targets` and pick the target that matches the agent the user changed, by name and endpoint host. If it is not there, call `get_setup_guide` and follow it to register the agent with `create_target`. Ask the user for the endpoint; never guess it. `create_target` takes no keys, tokens or passwords, so never ask the user for one: an agent that needs a key to answer is added in the Enoki app at https://app.enokilabs.ai/inventory (**Add integration**), and then appears in `list_targets`. Register a test or staging deployment rather than production, because an assessment sends adversarial messages to the agent.
 
 ## 2. Work out what the change touched
 
