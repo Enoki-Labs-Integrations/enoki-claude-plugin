@@ -9,10 +9,12 @@
     "url": "https://enokilabs.ai"
   },
   "homepage": "https://docs.enokilabs.ai/connect-your-agent",
+  "repository": "https://github.com/Enoki-Labs-Integrations/enoki-claude-plugin",
   "license": "MIT",
   "keywords": ["ai-agents", "security", "safety", "red-teaming", "testing"],
   "icon": "./logo.svg",
   "documentationUrl": "https://docs.enokilabs.ai",
   "supportUrl": "https://docs.enokilabs.ai/troubleshooting",
-  "privacyPolicyUrl": "https://enokilabs.ai/privacy"
+  "privacyPolicyUrl": "https://enokilabs.ai/privacy",
+  "termsOfServiceUrl": "https://enokilabs.ai/terms"
 }
